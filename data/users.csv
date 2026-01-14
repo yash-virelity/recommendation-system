@@ -1,51 +1,61 @@
-user_id,email,gender,age_range,fashion_preferences,interests,geo_location,is_brand_user,followed_brand_ids,onboarding_completed,created_at,updated_at
-user_5,alexj@gmail.com,male,26-35,"['streetwear','sportswear']","['hiking','outdoors','tech']",India,true,"['Nike','Adidas']",true,2024-01-05,2024-11-28
-user_6,meera@yahoo.com,female,26-35,"['ethnic','fusion']","['cooking','travel','yoga']",India,false,"['FabIndia']",true,2024-01-18,2024-12-02
-user_7,rahul.sharma@gmail.com,male,18-25,"['casuals','minimalist']","['photography','music','art']",India,true,"['Uniqlo','Muji']",true,2024-01-22,2024-12-10
-user_8,priya_k@gmail.com,female,36-45,"['formals','classic']","['reading','wine tasting','theatre']",India,true,"['Allen Solly','Van Heusen']",true,2024-01-30,2024-12-08
-user_9,vikram.singh@gmail.com,male,26-35,"['smart casual','business']","['entrepreneurship','finance','golf']",India,true,"['Peter England','Raymond']",true,2024-02-03,2024-11-30
-user_10,ananya_r@gmail.com,female,18-25,"['bohemian','vintage']","['painting','sustainability','veganism']",India,false,"[]",true,2024-02-10,2024-12-03
-user_11,karan_malhotra@gmail.com,male,36-45,"['luxury','tailored']","['watches','cars','fine dining']",India,true,"['Armani','Hugo Boss']",false,2024-02-12,2024-12-18
-user_12,sneha.patel@gmail.com,female,26-35,"['athleisure','casuals']","['fitness','podcasts','nutrition']",India,true,"['Lululemon','Puma']",true,2024-02-20,2024-12-12
-user_13,rohit_kumar@gmail.com,male,18-25,"['streetwear','skate']","['skateboarding','hip hop','graffiti']",India,false,"['Vans','Supreme']",true,2024-02-25,2024-12-07
-user_14,isha_verma@gmail.com,female,18-25,"['party','glam']","['clubbing','makeup','dancing']",India,true,"['H&M','Zara','Mango']",true,2024-03-01,2024-12-15
-user_15,aman.trivedi@gmail.com,male,26-35,"['techwear','futuristic']","['gaming','VR','anime']",India,false,"[]",true,2024-03-05,2024-12-01
-user_16,divya_nair@gmail.com,female,36-45,"['traditional','handloom']","['crafts','textiles','classical dance']",India,true,"['Raw Mango','Anokhi']",false,2024-03-08,2024-12-20
-user_17,rajeev_mehta@gmail.com,male,46-55,"['classic','timeless']","['gardening','classical music','history']",India,true,"['Brooks Brothers','Burberry']",true,2024-03-15,2024-12-05
-user_18,tanya_singh@gmail.com,female,26-35,"['workwear','minimalist']","['architecture','design','coffee']",India,true,"['COS','Everlane']",true,2024-03-18,2024-12-11
-user_19,siddharth_b@gmail.com,male,18-25,"['grunge','alternative']","['indie music','vinyl collection','poetry']",India,false,"['Thrasher','Urban Outfitters']",true,2024-03-22,2024-12-09
-user_20,nandini_r@gmail.com,female,26-35,"['maternity','comfort']","['parenting','baby care','nutrition']",India,true,"['Mothercare','Mamaearth']",true,2024-03-25,2024-12-14
-user_21,aravind_c@gmail.com,male,36-45,"['casual friday','denim']","['craft beer','bbq','sports']",India,true,"['Levi's','Wrangler']",true,2024-03-28,2024-12-06
-user_22,pallavi_d@gmail.com,female,46-55,"['elegant','sophisticated']","['philanthropy','book club','bridge']",India,false,"[]",true,2024-04-02,2024-12-16
-user_23,varun_t@gmail.com,male,26-35,"['business casual','preppy']","['sailing','tennis','networking']",India,true,"['Ralph Lauren','Tommy Hilfiger']",false,2024-04-05,2024-12-19
-user_24,shruti_m@gmail.com,female,18-25,"['cottagecore','romantic']","['gardening','baking','animals']",India,true,"['& Other Stories','Reformation']",true,2024-04-08,2024-12-04
-user_25,deepak_joshi@gmail.com,male,36-45,"['heritage','artisan']","['woodworking','photography','travel']",India,false,"['FabIndia','Good Earth']",true,2024-04-12,2024-12-13
-user_26,simran_k@gmail.com,female,26-35,"['androgynous','unisex']","['gender studies','activism','documentaries']",India,true,"['Gucci','Balenciaga']",true,2024-04-15,2024-12-17
-user_27,akash_narayan@gmail.com,male,18-25,"['streetwear','hypebeast']","['sneaker collection','street fashion','music festivals']",India,true,"['Off-White','Jordan']",true,2024-04-18,2024-11-29
-user_28,kavya_srinivas@gmail.com,female,36-45,"['resort wear','luxury']","['travel blogging','spas','yachting']",India,false,"[]",true,2024-04-22,2024-12-21
-user_29,manish_rai@gmail.com,male,26-35,"['corporate','sharp']","['stock market','political news','fine whiskies']",India,true,"['Canali','Ermenegildo Zegna']",true,2024-04-25,2024-12-22
-user_30,radhika_m@gmail.com,female,18-25,"['indie','eclectic']","['thrifting','DIY crafts','indie films']",India,false,"['Depop','ASOS']",false,2024-04-28,2024-12-23
-user_31,ritesh_patel@gmail.com,male,26-35,"['minimalist','monochrome']","['meditation','productivity','tech reviews']",India,true,"['Uniqlo','Everlane']",true,2024-05-02,2024-12-24
-user_32,anjali_desai@gmail.com,female,36-45,"['power dressing','structured']","['women leadership','public speaking','finance']",India,true,"['Theory','Joseph']",true,2024-05-05,2024-12-25
-user_33,mohit_sharma@gmail.com,male,18-25,"['surf style','beachwear']","['surfing','beach volleyball','sunset photography']",India,false,"['Billabong','Quiksilver']",true,2024-05-08,2024-12-26
-user_34,swati_r@gmail.com,female,26-35,"['modest fashion','elegant']","['community service','religious studies','calligraphy']",India,true,"['Modanisa','Hijab House']",true,2024-05-12,2024-12-27
-user_35,aditya_v@gmail.com,male,36-45,"['heritage menswear','classic']","['collecting fountain pens','chess','classic literature']",India,true,"['Turtlemint','Blackberrys']",true,2024-05-15,2024-12-28
-user_36,maya_krishnan@gmail.com,female,46-55,"['artistic','flowy']","['pottery','watercolor painting','classical concerts']",India,false,"[]",true,2024-05-18,2024-12-29
-user_37,nitin_gupta@gmail.com,male,26-35,"['travel ready','functional']","['backpacking','travel vlogging','language learning']",India,true,"['North Face','Patagonia']",true,2024-05-22,2024-12-30
-user_38,sonal_b@gmail.com,female,18-25,"['k-pop fashion','trendy']","['k-dramas','k-pop music','makeup tutorials']",India,true,"['Stylenanda','Chuu']",false,2024-05-25,2024-12-31
-user_39,pranav_m@gmail.com,male,36-45,"['safari','adventure']","['wildlife photography','camping','conservation']",India,true,"['Fjällräven','Barbour']",true,2024-05-28,2025-01-01
-user_40,tanvi_s@gmail.com,female,26-35,"['coquette','feminine']","['floristry','tea ceremonies','vintage novels']",India,true,"['Self-Portrait','Zimmermann']",true,2024-06-01,2025-01-02
-user_41,rajat_bansal@gmail.com,male,18-25,"['goth','alternative']","['metal music','tattoo art','horror movies']",India,false,"['Drop Dead','Killstar']",true,2024-06-05,2025-01-03
-user_42,amrita_c@gmail.com,female,36-45,"['wellness','eco-friendly']","['organic farming','meditation retreats','ayurveda']",India,true,"['Bombay Cloth House','No Nasties']",true,2024-06-08,2025-01-04
-user_43,sameer_khan@gmail.com,male,26-35,"['sharp','contemporary']","['mixology','jazz bars','contemporary art']",India,true,"['Ted Baker','AllSaints']",true,2024-06-12,2025-01-05
-user_44,lily_wong@gmail.com,female,26-35,"['fusion','east-meets-west']","['fusion cuisine','cultural events','mixed media art']",India,false,"['Injiri','Pero']",true,2024-06-15,2025-01-06
-user_45,veer_kapoor@gmail.com,male,46-55,"['regal','traditional']","['polo','classic cars','cigar collecting']",India,true,"['Manyavar','Tribe']",true,2024-06-18,2025-01-07
-user_46,diya_m@gmail.com,female,18-25,"['y2k','nostalgic']","['retro gaming','2000s music','polaroid photography']",India,true,"['Dolls Kill','Brandy Melville']",true,2024-06-22,2025-01-08
-user_47,kabir_singh@gmail.com,male,26-35,"['rugged','workwear']","['motorcycles','woodworking','blues music']",India,false,"['Carhartt','Dickies']",false,2024-06-25,2025-01-09
-user_48,reva_p@gmail.com,female,36-45,"['capsule wardrobe','sustainable']","['minimalism','zero waste','ethical fashion']",India,true,"['Kotn','Pact']",true,2024-06-28,2025-01-10
-user_49,arjun_m@gmail.com,male,18-25,"['techwear','cyberpunk']","['coding','cybersecurity','synthwave music']",India,true,"['A-Cold-Wall','Acronym']",true,2024-07-01,2025-01-11
-user_50,kiara_j@gmail.com,female,26-35,"['red carpet','glamorous']","['film festivals','celebrity culture','luxury travel']",India,true,"['Versace','Valentino']",true,2024-07-05,2025-01-12
-user_51,rohan_verma@gmail.com,male,36-45,"['smart casual','weekend']","['food tourism','wine tasting','home automation']",India,false,"['Massimo Dutti','M&S']",true,2024-07-08,2025-01-13
-user_52,zara_khan@gmail.com,female,18-25,"['indie sleaze','rock']","['concert hopping','vinyl hunting','zine making']",India,true,"['Urban Outfitters','Topshop']",true,2024-07-12,2025-01-14
-user_53,nikhil_r@gmail.com,male,26-35,"['heritage','craft']","['handicrafts','folk music','slow travel']",India,true,"['Gujarat Hándloom','Weaverstory']",true,2024-07-15,2025-01-15
-user_54,ishaani_p@gmail.com,female,26-35,"['retro','vintage']","['vintage car rally','swing dancing','classic cinema']",India,false,"[]",true,2024-07-18,2025-01-16
+user_id,email,gender,age_range,fashion_preferences,interests,geo_location,is_brand_user,followed_brand_ids,onboarding_completed,created_at,updated_at,userBodyType,underTone
+user_1,yash@gmail.com,male,18-25,"['casuals','streetwear']","['shopping','fashion','sneakers']",India,False,[],True,2024-01-10,2024-12-01,trapezoid,warm
+user_2,neha@gmail.com,female,26-35,"['formals','ethnic']","['fashion','office wear']",India,True,"['Nike','Zara']",True,2024-02-15,2024-12-05,hourglass,neutral
+user_3,arjun@gmail.com,male,18-25,"['streetwear','oversized']","['gym','street style']",India,False,['H&M'],True,2024-03-12,2024-12-15,inverted_triangle,cool
+user_4,pooja@gmail.com,female,18-25,"['casuals','party']","['fashion','party wear']",India,False,[],False,2024-04-01,2024-12-20,pear,very_warm
+user_5,alexj@gmail.com,male,26-35,"['streetwear','sportswear']","['hiking','outdoors','tech']",India,True,"['Nike','Adidas']",True,2024-01-05,2024-11-28,rectangle,neutral
+user_6,meera@yahoo.com,female,26-35,"['ethnic','fusion']","['cooking','travel','yoga']",India,False,['FabIndia'],True,2024-01-18,2024-12-02,hourglass,warm
+user_7,rahul.sharma@gmail.com,male,18-25,"['casuals','minimalist']","['photography','music','art']",India,True,"['Uniqlo','Muji']",True,2024-01-22,2024-12-10,trapezoid,very_cool
+user_8,priya_k@gmail.com,female,36-45,"['formals','classic']","['reading','wine tasting','theatre']",India,True,"['Allen Solly','Van Heusen']",True,2024-01-30,2024-12-08,apple,neutral
+user_9,vikram.singh@gmail.com,male,26-35,"['smart casual','business']","['entrepreneurship','finance','golf']",India,True,"['Peter England','Raymond']",True,2024-02-03,2024-11-30,trapezoid,warm
+user_10,ananya_r@gmail.com,female,18-25,"['bohemian','vintage']","['painting','sustainability','veganism']",India,False,[],True,2024-02-10,2024-12-03,rectangle,olive
+user_11,karan_malhotra@gmail.com,male,36-45,"['luxury','tailored']","['watches','cars','fine dining']",India,True,"['Armani','Hugo Boss']",False,2024-02-12,2024-12-18,rectangle,cool
+user_12,sneha.patel@gmail.com,female,26-35,"['athleisure','casuals']","['fitness','podcasts','nutrition']",India,True,"['Lululemon','Puma']",True,2024-02-20,2024-12-12,hourglass,very_warm
+user_13,rohit_kumar@gmail.com,male,18-25,"['streetwear','skate']","['skateboarding','hip hop','graffiti']",India,False,"['Vans','Supreme']",True,2024-02-25,2024-12-07,triangle,neutral
+user_14,isha_verma@gmail.com,female,18-25,"['party','glam']","['clubbing','makeup','dancing']",India,True,"['H&M','Zara','Mango']",True,2024-03-01,2024-12-15,pear,cool
+user_15,aman.trivedi@gmail.com,male,26-35,"['techwear','futuristic']","['gaming','VR','anime']",India,False,[],True,2024-03-05,2024-12-01,inverted_triangle,warm
+user_16,divya_nair@gmail.com,female,36-45,"['traditional','handloom']","['crafts','textiles','classical dance']",India,True,"['Raw Mango','Anokhi']",False,2024-03-08,2024-12-20,hourglass,olive
+user_17,rajeev_mehta@gmail.com,male,46-55,"['classic','timeless']","['gardening','classical music','history']",India,True,"['Brooks Brothers','Burberry']",True,2024-03-15,2024-12-05,oval,very_cool
+user_18,tanya_singh@gmail.com,female,26-35,"['workwear','minimalist']","['architecture','design','coffee']",India,True,"['COS','Everlane']",True,2024-03-18,2024-12-11,rectangle,neutral
+user_19,siddharth_b@gmail.com,male,18-25,"['grunge','alternative']","['indie music','vinyl collection','poetry']",India,False,"['Thrasher','Urban Outfitters']",True,2024-03-22,2024-12-09,trapezoid,warm
+user_20,nandini_r@gmail.com,female,26-35,"['maternity','comfort']","['parenting','baby care','nutrition']",India,True,"['Mothercare','Mamaearth']",True,2024-03-25,2024-12-14,apple,very_warm
+user_21,aravind_c@gmail.com,male,36-45,"['casual friday','denim']","['craft beer','bbq','sports']",India,True,"['Levi's','Wrangler']",True,2024-03-28,2024-12-06,rectangle,neutral
+user_22,pallavi_d@gmail.com,female,46-55,"['elegant','sophisticated']","['philanthropy','book club','bridge']",India,False,[],True,2024-04-02,2024-12-16,hourglass,cool
+user_23,varun_t@gmail.com,male,26-35,"['business casual','preppy']","['sailing','tennis','networking']",India,True,"['Ralph Lauren','Tommy Hilfiger']",False,2024-04-05,2024-12-19,inverted_triangle,very_cool
+user_24,shruti_m@gmail.com,female,18-25,"['cottagecore','romantic']","['gardening','baking','animals']",India,True,"['& Other Stories','Reformation']",True,2024-04-08,2024-12-04,pear,warm
+user_25,deepak_joshi@gmail.com,male,36-45,"['heritage','artisan']","['woodworking','photography','travel']",India,False,"['FabIndia','Good Earth']",True,2024-04-12,2024-12-13,triangle,olive
+user_26,simran_k@gmail.com,female,26-35,"['androgynous','unisex']","['gender studies','activism','documentaries']",India,True,"['Gucci','Balenciaga']",True,2024-04-15,2024-12-17,rectangle,neutral
+user_27,akash_narayan@gmail.com,male,18-25,"['streetwear','hypebeast']","['sneaker collection','street fashion','music festivals']",India,True,"['Off-White','Jordan']",True,2024-04-18,2024-11-29,trapezoid,cool
+user_28,kavya_srinivas@gmail.com,female,36-45,"['resort wear','luxury']","['travel blogging','spas','yachting']",India,False,[],True,2024-04-22,2024-12-21,hourglass,warm
+user_29,manish_rai@gmail.com,male,26-35,"['corporate','sharp']","['stock market','political news','fine whiskies']",India,True,"['Canali','Ermenegildo Zegna']",True,2024-04-25,2024-12-22,rectangle,very_cool
+user_30,radhika_m@gmail.com,female,18-25,"['indie','eclectic']","['thrifting','DIY crafts','indie films']",India,False,"['Depop','ASOS']",False,2024-04-28,2024-12-23,triangle,olive
+user_31,ritesh_patel@gmail.com,male,26-35,"['minimalist','monochrome']","['meditation','productivity','tech reviews']",India,True,"['Uniqlo','Everlane']",True,2024-05-02,2024-12-24,inverted_triangle,neutral
+user_32,anjali_desai@gmail.com,female,36-45,"['power dressing','structured']","['women leadership','public speaking','finance']",India,True,"['Theory','Joseph']",True,2024-05-05,2024-12-25,hourglass,cool
+user_33,mohit_sharma@gmail.com,male,18-25,"['surf style','beachwear']","['surfing','beach volleyball','sunset photography']",India,False,"['Billabong','Quiksilver']",True,2024-05-08,2024-12-26,trapezoid,warm
+user_34,swati_r@gmail.com,female,26-35,"['modest fashion','elegant']","['community service','religious studies','calligraphy']",India,True,"['Modanisa','Hijab House']",True,2024-05-12,2024-12-27,pear,very_warm
+user_35,aditya_v@gmail.com,male,36-45,"['heritage menswear','classic']","['collecting fountain pens','chess','classic literature']",India,True,"['Turtlemint','Blackberrys']",True,2024-05-15,2024-12-28,oval,neutral
+user_36,maya_krishnan@gmail.com,female,46-55,"['artistic','flowy']","['pottery','watercolor painting','classical concerts']",India,False,[],True,2024-05-18,2024-12-29,apple,cool
+user_37,nitin_gupta@gmail.com,male,26-35,"['travel ready','functional']","['backpacking','travel vlogging','language learning']",India,True,"['North Face','Patagonia']",True,2024-05-22,2024-12-30,rectangle,warm
+user_38,sonal_b@gmail.com,female,18-25,"['k-pop fashion','trendy']","['k-dramas','k-pop music','makeup tutorials']",India,True,"['Stylenanda','Chuu']",False,2024-05-25,2024-12-31,hourglass,olive
+user_39,pranav_m@gmail.com,male,36-45,"['safari','adventure']","['wildlife photography','camping','conservation']",India,True,"['Fjällräven','Barbour']",True,2024-05-28,2025-01-01,trapezoid,very_cool
+user_40,tanvi_s@gmail.com,female,26-35,"['coquette','feminine']","['floristry','tea ceremonies','vintage novels']",India,True,"['Self-Portrait','Zimmermann']",True,2024-06-01,2025-01-02,hourglass,warm
+user_41,rajat_bansal@gmail.com,male,18-25,"['goth','alternative']","['metal music','tattoo art','horror movies']",India,False,"['Drop Dead','Killstar']",True,2024-06-05,2025-01-03,triangle,neutral
+user_42,amrita_c@gmail.com,female,36-45,"['wellness','eco-friendly']","['organic farming','meditation retreats','ayurveda']",India,True,"['Bombay Cloth House','No Nasties']",True,2024-06-08,2025-01-04,rectangle,olive
+user_43,sameer_khan@gmail.com,male,26-35,"['sharp','contemporary']","['mixology','jazz bars','contemporary art']",India,True,"['Ted Baker','AllSaints']",True,2024-06-12,2025-01-05,inverted_triangle,cool
+user_44,lily_wong@gmail.com,female,26-35,"['fusion','east-meets-west']","['fusion cuisine','cultural events','mixed media art']",India,False,"['Injiri','Pero']",True,2024-06-15,2025-01-06,pear,warm
+user_45,veer_kapoor@gmail.com,male,46-55,"['regal','traditional']","['polo','classic cars','cigar collecting']",India,True,"['Manyavar','Tribe']",True,2024-06-18,2025-01-07,oval,very_cool
+user_46,diya_m@gmail.com,female,18-25,"['y2k','nostalgic']","['retro gaming','2000s music','polaroid photography']",India,True,"['Dolls Kill','Brandy Melville']",True,2024-06-22,2025-01-08,hourglass,neutral
+user_47,kabir_singh@gmail.com,male,26-35,"['rugged','workwear']","['motorcycles','woodworking','blues music']",India,False,"['Carhartt','Dickies']",False,2024-06-25,2025-01-09,rectangle,warm
+user_48,reva_p@gmail.com,female,36-45,"['capsule wardrobe','sustainable']","['minimalism','zero waste','ethical fashion']",India,True,"['Kotn','Pact']",True,2024-06-28,2025-01-10,rectangle,cool
+user_49,arjun_m@gmail.com,male,18-25,"['techwear','cyberpunk']","['coding','cybersecurity','synthwave music']",India,True,"['A-Cold-Wall','Acronym']",True,2024-07-01,2025-01-11,inverted_triangle,olive
+user_50,kiara_j@gmail.com,female,26-35,"['red carpet','glamorous']","['film festivals','celebrity culture','luxury travel']",India,True,"['Versace','Valentino']",True,2024-07-05,2025-01-12,hourglass,very_warm
+694ed16e160b03f146e03898,yashchavan4628@gmail.com,male,18-25,"['formals', 'casuals']",,,,,True,2025-12-26T18:18:22.272Z,2025-12-30T13:36:32.262Z,,
+694f818414574911a37130c1,aadityarevandkar@gmail.com,male,18-25,"['formals', 'casuals']",,,,,True,2025-12-27T06:49:40.209Z,2025-12-27T06:50:00.461Z,,
+694f83f529431638592f7b34,chogalesoham74@gmail.com,female,26-35,['formals'],,,,,True,2025-12-27T07:00:05.403Z,2026-01-13T18:52:36.164Z,,
+69522795d72ab5734bbed86d,soham@gmail.com,,,[],,,,,False,2025-12-29T07:02:45.739Z,2025-12-29T07:02:45.739Z,,
+695227b0d72ab5734bbed871,sohamchogale.dev07@gmail.com,male,18-25,"['formals', 'casuals']",,,,,True,2025-12-29T07:03:12.461Z,2025-12-29T07:03:24.292Z,,
+695551aa130f6be13370ce18,ganjali9877@gmail.com,female,18-25,['dresses'],,,,,True,2025-12-31T16:39:06.332Z,2025-12-31T16:39:16.257Z,,
+695558d1ad7f2c2d4fbee62b,a82638174@gmail.com,female,18-25,['casuals'],,,,,True,2025-12-31T17:09:37.249Z,2025-12-31T17:09:48.698Z,,
+6962048b372cb03626150264,revandkarsanjay@gmail.com,female,36-45,['formals'],,,,,True,2026-01-10T07:49:31.820Z,2026-01-10T07:49:42.216Z,,
+6964d648fc62b77a01590289,swaroop140903@gmail.com,,,[],,,,,False,2026-01-12T11:08:56.806Z,2026-01-12T11:08:56.806Z,,
+696692fd113b193fda44ae6f,sohamnew23@gmail.com,male,18-25,['formals'],,,,,True,2026-01-13T18:46:21.522Z,2026-01-13T18:46:57.586Z,,

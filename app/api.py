@@ -8,33 +8,36 @@ from app.cache import RecommendationCache
 app = FastAPI(title="Recommendation Service")
 
 users, products, interactions = load_data()
+
 products = parse_list_columns(products, ["tags", "sizes", "fits"])
+
 vectors = build_product_vectors(products)
 
-recommender = HybridRecommender(products, vectors, interactions)
-cache = RecommendationCache(ttl_seconds=10)
+recommender = HybridRecommender(
+    users=users,
+    products=products,
+    vectors=vectors,
+    interactions=interactions
+)
 
-@app.get("/health")
-def health():
-    return {"status": "ok"}
+cache = RecommendationCache(ttl_seconds=10)
 
 @app.get("/recommend/{user_id}")
 def recommend(user_id: str):
-    cached_products = cache.get(user_id)
+    cached = cache.get(user_id)
 
-    if cached_products:
-        # Generate fresh recommendations excluding cached ones
+    if cached:
         new_recs = recommender.recommend(
             user_id,
-            exclude_products=cached_products
+            exclude_products=cached
         )
-        final_recs = cached_products[:2] + new_recs[:3]
+        final =  new_recs[:12] + cached[:3]
     else:
-        final_recs = recommender.recommend(user_id)
+        final = recommender.recommend(user_id)
 
-    cache.set(user_id, final_recs)
+    cache.set(user_id, final)
 
     return {
         "user_id": user_id,
-        "recommendations": final_recs
+        "recommendations": final
     }
